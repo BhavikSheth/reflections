@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I did not have to manually compare each line to look for what was different between the old and new version of the files. This would have taken hours and I would possibly have missed out some differences. Viewing the diff only showed me everything that was different between the two files so I didn't have to look through hundreds of lines of code and I was able to find the problem within minutes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I deleted something in a file and later wanted to recall what I had deleted or realised it was a mistake, I can look through the history and find what I was looking for. Without the history, this would not be possible and I'd get frustrated attempting to recall from memory because this would be my only option. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Automatically saved versions will have many unnecessary versions which will be difficult to manage.
+    There won't be a small description explaining each saved version.
+    Choosing manually will let us create a commit when there is a logical reason to do so.
+    When looking through the history, looking for the right version will be easier with manually created commmits rather than automatically saved versions.
+    Versions created manually will make more sense because these versions will have reasons but automatically created versions will have random cut off points so looking back at these versions may have cut off lines, words, code etc.
+    Manually commited versions have a higher chance of compiling because of the reason above.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because if there were changes to multiple files which had the same logical reason, saving multiple files in one commit would be easier than making one commit for each file which had the same reason. For example, if ten files were changed to add one feature, it's easier and faster to make one commit for these ten files and give it the reason "blah blah feature has been added" rather than making ten commits for this same reason. It would tedious and annoying.
+    Google Docs does not need this feature. It is easier to use when each file is treated separately. Most Google Doc users would not be changing multiple files for one reason. There are no links between files in Google Doc like they are in Git where html, css, and js files would all be connected.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log and git diff commands can be used to view only the changes which have been made between the two versions specifed using the commit ID's in the git diff command. The git log command shows the full history of commits made in the repository.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   	If I break something, I can go back to the previous version when the code worked and compare the current version with the previous version and look for which changes have broken something. This would not be possible without version control.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for my Free Code Camp projects for practice. Create a habit of using version control for all my projects I take on in the future.
