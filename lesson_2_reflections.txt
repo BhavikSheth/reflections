@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When initialising a repository, a few hidden files are created starting with a period symbol. The .git file holds all the versions and history of this repository since it was created.
+	Creating a repository allows us to use git commands and make versions of the files we work on.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area lets us control what we would like to add to our commit. If we had plenty of files, it would be difficult to keep track of what files have been changed. By using the staging area, we can add them there as we make changes to each file and once we're happy, we can commit all the changes.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
