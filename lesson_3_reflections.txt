@@ -6,24 +6,28 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    This gives me more control over my work. If I was working both locally and remotely on different things, I wouldn't want anything automatically syncing as this could cause serious complications and conflicts.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork allows us to clone a repository created by someone else into my account with a single click. This is easier than cloning onto my computer and pushing into my account. Forking also gives credit to the creator of the repository whereas the latter doesn't. The forks link back to the original work.
+
+    Cloning allows us to clone a repository from my account on Github to my computer so I can work on this repository locally.
+
+    Branches are created in one single repository. They are used when you want to create different features, fix bugs, add new languages etc.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Knowing the last state of the remote repository locally helps us see how many commits we are ahead since the last state of the remote repository. If there are any conflicts, we are able to solve these conflicts more easily than not knowing the origin. We are also able to check if the remote repository and local repository are out of sync.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would use a combination of some of the following softwares. Dropbox, Google Drive, Trello, Asana, and Slack. Dropbox or Google Drive for storing files and adding users to collaborate. Trello, Asana, or Slack to speak to collaborators and share new ideas. From a young age when I learned to use computers, I have always used folders to organise my work including versions of my work so my mindset has always been to use folders for organisation. This would definitely be a difficult system for collaboration. Branches would be difficult to follow because they would be folders. Working out the difference between version of files would be extremely difficult.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to check with collaborators if they are happy with the changes being made then merge this new branch into the master branch using the pull request feature. If they decide not to use the new changes then they can just delete the branch and it will not have affected or broken master at all. If they made these new changes on the master branch and decided later that they don't want it, the master branch would have unnecessary commits which would make it messy.  

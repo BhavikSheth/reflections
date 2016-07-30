@@ -11,13 +11,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You add files to the staging area using the 'git add' command. These files must fit with the logical reason for the commit. Once the work has been done for this logical reason, check the status and differences to make sure you are happy and then commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches would help if I wanted to try out new different things such as experimental features, new languages and fixing a bug. I can work on several different changes and ideas at the same time by using branches. Without branches, I would have to finish what I was working on before moving onto something new. Branches allow flexibility and keeps everything organised.
+
 How do the diagrams help you visualize the branch structure?
+
+	The diagrams help me understand how the branch structure works and how the computer works with these branches. This helps me think about how I can incorporate branches into my projects and make development easier. I struggled to understand branches and how they worked but these diagrams have finally cleared it all up.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging two branches together lets us merge two or more different changes together. For example, if there were bug fixes in one branch and a feature was added to a game via a different branch, we could merge both these branches so now there would be one branch with both the bug fixes and the new feature. By using diagrams, we, the students can visualise how git branches work and make learning easier and faster.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	
